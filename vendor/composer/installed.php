@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'symfony/asset' => array(
+            'pretty_version' => 'v5.3.2',
+            'version' => '5.3.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/asset',
+            'aliases' => array(),
+            'reference' => '29a4d5e6e39ffe16cea394fd5041d7a638bd580d',
+            'dev_requirement' => false,
+        ),
+        'symfony/deprecation-contracts' => array(
+            'pretty_version' => 'v2.4.0',
+            'version' => '2.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
+            'aliases' => array(),
+            'reference' => '5f38c8804a9e97d23e0c8d63341088cd8a22d627',
+            'dev_requirement' => false,
+        ),
+    ),
+);
